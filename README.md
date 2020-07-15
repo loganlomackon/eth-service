@@ -1,6 +1,6 @@
 Enviroment 
 
-//Create project
+#Create project
 npm init -y 
 npm install typescript --save
 npm install ts-node --save-dev
@@ -15,17 +15,17 @@ package.json
     "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*"
   },
-//Run: ts-node index.ts
+#Run: ts-node index.ts
 
-//solidity
+#solidity
 npm install --save solc ganache-cli web3
 npm install --save @truffle/hdwallet-provider
 
-//ganache-cli is only compatible with node12
+#ganache-cli is only compatible with node12
 nvm install 12
 nvm use --delete-prefix v12.18.2
 
-//test
+#test
 npm install --save mocha
 npm install --save @types/mocha
 npm install assert --save-dev
@@ -35,7 +35,7 @@ npm install @types/assert --save-dev
 
 npm test
 
-//API
+#API
 npm install express body-parser cookie-session
 npm install @types/express @types/cookie-session @types/body-parser
 npm i reflect-metadata --save
