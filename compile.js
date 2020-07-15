@@ -4,7 +4,7 @@ const solc = require('solc');
 
 const contractPath = path.resolve(
   __dirname,
-  'iotChain',
+  'src/contracts/iotChain',
   'StorageIotOnChain.sol'
 );
 const source = fs.readFileSync(contractPath, 'utf8');

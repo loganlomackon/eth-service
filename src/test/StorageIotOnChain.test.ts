@@ -4,7 +4,7 @@ const {
   updateNum,
   push,
   getRecent,
-} = require('../src/contracts/iotChain/StorageIotOnChainManager');
+} = require('../contracts/iotChain/StorageIotOnChainManager');
 
 let address: string;
 beforeEach(async () => {

@@ -5,6 +5,7 @@ import { router } from './controllers/IotChainRoutes';
 
 const app = express();
 
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieSession({ keys: ['abc'] }));
 app.use(router);

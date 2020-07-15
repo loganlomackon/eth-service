@@ -1,4 +1,4 @@
-export interface StorageIotOnChainManager {
+export declare interface StorageIotOnChainManager {
   methods: {
     deploy(): Promise<string>;
     updateNum(address: string, num: number): Promise<number>;
