@@ -1,5 +1,7 @@
 export declare interface StorageIotOnChainManager {
   methods: {
+    getAccount(): Promise<string>;
+    getAbi(): string;
     deploy(): Promise<string>;
     updateNum(address: string, num: number): Promise<number>;
     push(
